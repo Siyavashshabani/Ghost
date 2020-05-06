@@ -1,0 +1,16 @@
+Package: Ghost
+Type: Package
+Title:Missing Data Segments Imputation in Multivariate Streams
+Version: 0.1.0
+Author: Siyavash Shabani, Reza Rawassizadeh 
+Maintainer: Siyavash Shabani <s.shabani.aut@gmail.com>
+Description: Helper functions provide an accurate imputation algorithm for reconstructing the missing segment in a multi-variate data streams. Inspired by single-shot learning, it reconstructs the missing segment by identifying the first similar segment in the stream. Nevertheless, there should be one column of data available, i.e. a constraint column. The values of columns can be characters (A, B, C, etc.). The result of the imputed dataset will be returned a .csv file. For more details see Reza Rawassizadeh (2019) <doi:10.1109/TKDE.2019.2914653>.
+URL:https://www.researchgate.net/publication/332779980_Ghost_Imputation_Accurately_Reconstructing_Missing_Data_of_the_Off_Period
+Depends: R (>= 2.10)
+License: GPL-3 
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: no
+Packaged: 2019-12-06 19:43:23 UTC; lorman
+Imports: R6
+RoxygenNote: 7.0.1
